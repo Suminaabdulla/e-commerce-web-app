@@ -1,0 +1,13 @@
+.productTagContainer {
+    background-color: #ff375e;
+    padding: 4px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+}
+
+.productTagText {
+    color: white;
+    font-size: 12px;
+    font-weight:bold
+}

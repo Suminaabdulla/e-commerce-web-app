@@ -1,0 +1,92 @@
+.productContainer {
+    margin-top: 25px;
+}
+
+.productTagContainer {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+  
+.cardContainer {
+    height: 480px;
+    padding: 16px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+  
+.imageContainer {
+    width: 50%;
+    height:  50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.buyButton {
+    background-color: white;
+    width: 85%;
+    font-size: 14px;
+    position: absolute;
+    bottom: 30px;
+    border: 1px solid #ff375e;
+    border-radius: 4px;
+    color: #ff375e
+}
+
+.startingFromText {
+    font-size: 12px;
+    font-weight: lighter;
+}
+  
+.priceContainer {
+    display: flex;
+    align-items:flex-start;
+    margin-bottom: 10px;
+}
+  
+.currencyText {
+    font-size: 12px;
+    margin-top: 2px;
+}
+  
+.priceInteger {
+    font-size: 22px;
+    font-weight: bold;
+}
+  
+.decimalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.priceDecimal {
+    font-size: 12px;
+    font-weight: bold;
+}
+  
+.priceUnit {
+    font-size: 10px;
+}
+  
+.discountPrice {
+    margin-left: 2px;
+}
+
+.vatText {
+    font-weight: lighter;
+    margin-left: 5px;
+}
+
+.buyButton:hover {
+    color: white;
+    border: none;
+    background-color: #ff375e
+}
